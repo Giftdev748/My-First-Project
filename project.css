@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans-serif;
+}
+
+.body{
+    margin: auto;
+    width: 80%;
+    
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav li{
+    margin-right: 20px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-size:20px ;
+}
+.hero{
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 40px;
+}
+.image-container{
+    width: 1200px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 20px;
+}
+.text{
+    font-size: 20px;
+}
+.textformat{
+    font-size: 20px;
+}
